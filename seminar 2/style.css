@@ -1,69 +1,75 @@
-                    body {
-                        font-family: sans-serif;
-                    }
-                    
-                    a {
-                        text-decoration: none;
-                    }
-                    
-                    nav {
-                        background-color: rgba(17, 175, 175, 0.363);
-                        opacity: 1;
-                    }
-                    
-                    .nav_link {
-                        color: cornflowerblue;
-                        font-size: 26px;
-                        line-height: 30px;
-                        text-align: center;
-                        padding: 20px;
-                    }
-                    
-                    .title {
-                        color: #c70c0c;
-                        font-size: 28px;
-                        line-height: 36px;
-                        font-weight: bold;
-                    }
-                    
-                    .subtitle {
-                        color: coral;
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 36px;
-                        line-height: 80px;
-                    }
-                    
-                    .line {
-                        font-style: normal;
-                        font-weight: 300;
-                        font-size: 18px;
-                        line-height: 30px;
-                        color: #7D7987;
-                    }
-                    
-                    .catalog_image {
-                        border-radius: 30px;
-                    }
-                    
-                    .form_input {
-                        width: 200px;
-                        height: 30px;
-                        outline: none;
-                        border: 1px solid #ccc;
-                        border-radius: 15px;
-                        font-size: 14px;
-                        line-height: 30px;
-                        margin: 10px;
-                        font-family: sans-serif;
-                    }
-                    
-                    .form_button {
-                        width: 100px;
-                        height: 30px;
-                        border: 1px solid #ccc;
-                        border-radius: 10px;
-                        font-size: 14px;
-                        /* line-height: 30px; */
-                        margin: 10px;
-                    }
+                body {
+                    font-family: sans-serif;
+                    margin-top: 100px;
+                }
+                
+                a {
+                    text-decoration: none;
+                }
+                
+                nav {
+                    background-color: rgba(17, 175, 175, 0.363);
+                    opacity: 1;
+                    position: fixed;
+                    top: 0;
+                    line-height: 30px;
+                    text-align: center;
+                    padding: 20px;
+                    width: 100%;
+                }
+                
+                .nav_link {
+                    color: cornflowerblue;
+                    text-decoration: none;
+                    font-size: 26px;
+                    margin: 0 10%;
+                }
+                
+                .title {
+                    color: #c70c0c;
+                    font-size: 28px;
+                    line-height: 36px;
+                    font-weight: bold;
+                }
+                
+                .subtitle {
+                    color: coral;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 80px;
+                }
+                
+                .line {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #7D7987;
+                }
+                
+                .catalog_image {
+                    border-radius: 30px;
+                }
+                
+                .form_input {
+                    width: 200px;
+                    height: 30px;
+                    outline: none;
+                    border: 1px solid #ccc;
+                    border-radius: 15px;
+                    font-size: 14px;
+                    line-height: 30px;
+                    margin: 10px;
+                    font-family: sans-serif;
+                }
+                
+                .form_button {
+                    width: 100px;
+                    height: 30px;
+                    border: 1px solid #ccc;
+                    border-radius: 10px;
+                    font-size: 14px;
+                    /* line-height: 30px; */
+                    margin: 10px;
+                }
